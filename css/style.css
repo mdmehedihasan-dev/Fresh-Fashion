@@ -1,0 +1,433 @@
+/* ===================== 
+COMMON CSS START 
+=================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pop {
+  font-family: "Poppins", sans-serif;
+}
+
+.frank {
+  font-family: "Frank Ruhl Libre", serif;
+}
+
+.font-22 {
+  font-size: 22;
+}
+
+.font-24 {
+  font-size: 24;
+}
+
+.font-28 {
+  font-size: 28;
+}
+
+.font-64 {
+  font-size: 64;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+/*===================== 
+
+COMMON CSS END
+
+=================== */
+
+/*====================
+
+NAVBAR CSS START
+
+ =================== */
+nav {
+  background-color: rgba(250, 227, 182, 1);
+  padding: 49px 0;
+}
+
+nav label {
+  display: none;
+}
+nav input {
+  display: none;
+}
+
+.logo {
+  width: 20%;
+}
+
+.nav-item {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item ul {
+  column-gap: 49px;
+}
+
+.buttons {
+  width: 20%;
+}
+
+.buttons a {
+  border: 1px solid rgb(233, 189, 108);
+  padding: 10px 28px;
+  background-color: rgb(250, 227, 182);
+  border-radius: 10px;
+  box-shadow: -1px 2px 0px 0px rgba(195, 156, 86, 0.75);
+  -webkit-box-shadow: -1px 2px 0px 0px rgba(195, 156, 86, 0.75);
+  -moz-box-shadow: -1px 2px 0px 0px rgba(195, 156, 86, 0.75);
+}
+
+/*==================== 
+NAVBAR CSS END
+
+
+=================== */
+
+/*==================== 
+BANNER CSS START
+=================== */
+
+.banner {
+  padding-top: 55px;
+  padding-bottom: 139px;
+  background-color: rgba(250, 227, 182, 1);
+}
+
+.banner .left {
+  width: 50%;
+}
+
+.banner .left h1 {
+  width: 500px;
+  font-size: 64px;
+  line-height: 96px;
+}
+.banner .left p {
+  width: 530px;
+  font-size: 22px;
+  margin-bottom: 75px;
+  margin-top: 33px;
+}
+
+.banner .left a {
+  font-size: 22px;
+  color: #fff;
+  background-color: black;
+  padding: 25px 90px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.banner .right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.banner .right .bannerimg {
+  border-radius: 0 0 0 195px;
+  z-index: 2;
+  position: relative;
+  animation: image 0.4s infinite alternate;
+}
+
+@keyframes image {
+  from {
+    filter: grayscale(0);
+  }
+  to {
+    filter: grayscale(1);
+  }
+}
+
+.banner .right .bannerDot {
+  z-index: 1;
+  position: absolute;
+  left: 25px;
+  bottom: 0;
+  animation: move 0.4s infinite alternate;
+}
+
+@keyframes move {
+  from {
+    left: 0;
+  }
+  to {
+    left: 30px;
+  }
+}
+/*====================
+ BANNER CSS END
+ =================== */
+
+/*==================== 
+COLLECTION CSS START
+=================== */
+
+.collection {
+  padding: 120px 0;
+}
+
+.collection .title {
+  text-align: center;
+}
+
+.collection .title h1 {
+  font-size: 64px;
+}
+
+.collection .title p {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.collection .flex {
+  justify-content: space-between;
+}
+
+.collection .item {
+  width: 30%;
+  position: relative;
+  overflow: hidden;
+}
+
+.collection .item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.collection .item .name {
+  text-align: center;
+  width: 90%;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: -60px;
+  transform: translateX(-50%);
+  font-size: 24px;
+  border-radius: 20px;
+  padding: 10px 0;
+  transition: 0.5s;
+}
+
+.collection .item:hover .name {
+  bottom: 20px;
+}
+
+/*==================== 
+COLLECTION CSS END
+=================*/
+/*==================== 
+FASHION CSS START
+=================*/
+.fashion {
+  padding-top: 180px;
+  padding-bottom: 50px;
+}
+
+.fashion-item {
+  display: flex;
+  gap: 138px;
+}
+
+.item-one {
+  position: relative;
+}
+
+.item-one .shapeimg {
+  position: absolute;
+  top: -50px;
+  right: -99px;
+  z-index: -1;
+}
+.item-two {
+  padding-top: 70px;
+  position: relative;
+}
+
+.item-two .down-content {
+  position: absolute;
+  left: -235px;
+  bottom: -200px;
+  z-index: -1;
+}
+
+.best-h2 {
+  font-size: 64px;
+}
+
+.best-p {
+  font-size: 24px;
+  margin-top: 60px;
+  width: 408px;
+}
+
+.item-two .down-content {
+  padding: 50px 20px 55px 50px;
+  background-color: #feecc8;
+  border-radius: 20px;
+}
+
+.content-down {
+  display: flex;
+  gap: 30px;
+}
+
+.content-down h2 {
+  font-size: 64px;
+}
+
+.content-down p {
+  margin-top: 28px;
+  font-size: 28px;
+}
+
+.info {
+  display: flex;
+  gap: 27px;
+}
+
+.info .line {
+  margin-top: 20px;
+}
+/*==================== 
+FASHION CSS END
+=================*/
+
+/*==================== 
+PRODUCT CSS START
+=================*/
+
+.product {
+  margin-top: 280px;
+  padding: 35px 0 191px 0;
+  background: #cfa485;
+}
+.product-article {
+  width: 40%;
+  position: relative;
+}
+
+.product-article img {
+  position: absolute;
+  top: -185px;
+  left: 96px;
+  z-index: -1;
+}
+
+.product-img {
+  width: 60%;
+}
+
+.product-article h2 {
+  font-size: 64px;
+  color: #fff;
+}
+
+.product-article p {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 44px;
+  width: 380px;
+  color: #fff;
+}
+
+.product-article a {
+  margin-top: 20px;
+  padding: 25px 100px;
+  background: black;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.product .product-img h3 {
+  font-size: 22px;
+}
+
+.product .product-img .star {
+  display: flex;
+  gap: 8px;
+  color: #ffaf37;
+  margin-bottom: 15px;
+}
+
+.product .product-img .price {
+  color: #c4c4c4;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.product .product-img span {
+  font-size: 24px;
+}
+
+.product-img .sweater {
+  background: #fff;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+.product-img .sweater img {
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+.product-img .pants {
+  background: #fff;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+.product-img .pants img {
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+.product-img .item {
+  padding: 12px 14px;
+}
+
+/*==================== 
+PRODUCT CSS END
+=================*/

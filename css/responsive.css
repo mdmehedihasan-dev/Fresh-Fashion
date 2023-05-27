@@ -1,0 +1,238 @@
+@media (min-width: 320px) and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  nav label {
+    display: block;
+    background: transparent;
+    border: 0;
+    padding-top: 20px;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+  }
+
+  nav input:checked ~ .nav-item {
+    display: block;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .nav-item {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: none;
+  }
+
+  .buttons {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .buttons a {
+    margin-right: 10px;
+  }
+
+  /* ======================
+BANNER RESPONSIVE START
+========================= */
+
+  .banner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .banner .left {
+    width: 100%;
+  }
+
+  .banner .left h1 {
+    width: auto;
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .banner .left p {
+    width: auto;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .banner .right {
+    display: none;
+  }
+
+  .banner .left a {
+    font-size: 18px;
+
+    padding: 15px 30px;
+  }
+
+  /* ======================
+BANNER RESPONSIVE END
+========================= */
+
+  /* ======================
+COLLECTION RESPONSIVE STSRT
+========================= */
+
+  .collection .item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .collection .item .name {
+    bottom: 20px;
+  }
+
+  .collection {
+    padding: 30px 0;
+  }
+  .collection .title h1 {
+    font-size: 30px;
+  }
+  .collection .title p {
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+  }
+
+  /* ======================
+COLLECTION RESPONSIVE END
+========================= */
+
+  /* ======================
+Fashion RESPONSIVE START
+========================= */
+
+  .fashion {
+    padding-top: 15px;
+    padding-bottom: 50px;
+  }
+
+  .item-one {
+    display: none;
+  }
+
+  .item-two {
+    padding-top: 0;
+  }
+
+  .info {
+    padding-top: 20px;
+  }
+
+  .best-h2 {
+    font-size: 32px;
+  }
+
+  .best-p {
+    font-size: 18px;
+    margin-top: 22px;
+    width: 100%;
+  }
+
+  .content-down {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .item-two .down-content {
+    left: 34px;
+    bottom: -398px;
+    z-index: -1;
+  }
+
+  .info .line {
+    display: none;
+  }
+
+  .content-down p {
+    margin-top: -12px;
+    font-size: 23px;
+  }
+
+  .content-down h2 {
+    font-size: 30px;
+  }
+
+  /* ======================
+Fashion RESPONSIVE END
+========================= */
+
+  /* ======================
+PRODUCT RESPONSIVE START
+========================= */
+  .product {
+    margin-top: 404px;
+
+    padding: 35px 0 65px 0;
+  }
+
+  .product-article {
+    width: 100%;
+  }
+
+  .product-article h2 {
+    font-size: 32px;
+  }
+
+  .product-article p {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    width: 100%;
+    color: #fff;
+  }
+
+  .product-article a {
+    margin-top: 20px;
+    padding: 20px 80px;
+    font-size: 20px;
+  }
+
+  .product-img {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .product-img .sweater {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .product-img .sweater img {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .product-img .pants {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .product-img .pants img {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  /* ======================
+PRODUCT RESPONSIVE END
+========================= */
+}
